@@ -1,7 +1,7 @@
 
 ## Build and run dtbtool
 DTBTOOL := $(HOST_OUT_EXECUTABLES)/dtbToolLineage$(HOST_EXECUTABLE_SUFFIX)
-INSTALLED_DTIMAGE_TARGET := $(DEVICE_PATH)/prebuilt/dt.img
+INSTALLED_DTIMAGE_TARGET := $(TARGET_PREBUILT_DTIMAGE)
 LZMA_BIN := $(shell which lzma)
 LZMA_RAMDISK := $(PRODUCT_OUT)/ramdisk-recovery-lzma.img
 
